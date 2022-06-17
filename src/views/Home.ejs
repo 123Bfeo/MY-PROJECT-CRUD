@@ -1,0 +1,44 @@
+<%-include('./partials/head') %> <%-include('./partials/header') %>
+<center>
+  <section
+    class="conte-tar"
+    style="display: flex; justify-content: center; margin-top: 100px"
+  >
+    <div class="card" style="width: 18rem; height: 18rem; margin: 10px 5px">
+      <div class="ico" style="margin-bottom: 20px">
+        <i class="fas fa-users" style="font-size: 50px; margin-top: 5px"></i>
+      </div>
+      <p>Puedes ver todos los Clientes de nuestra Base de Datos</p>
+      <div class="boton" style="margin-top: 30px">
+        <a class="nav-link" href="/list">
+          <button class="btn btn-primary">Listar</button>
+        </a>
+      </div>
+    </div>
+    <div
+      class="card"
+      style="
+        display: flex;
+        flex-direction: column;
+        width: 18rem;
+        height: 18rem;
+        margin: 10px 5px;
+      "
+    >
+      <div class="ico1" style="margin-bottom: 20px">
+        <i
+          class="fas fa-user-plus"
+          style="font-size: 50px; margin-top: 5px"
+        ></i>
+      </div>
+      <p>Crea un nuevo cliente y guárdalo en la Base de Datos</p>
+      <div class="boton" style="margin-top: 30px">
+        <a class="nav-link" href="/create">
+          <button class="btn btn-primary">Crear</button>
+        </a>
+      </div>
+    </div>
+  </section>
+</center>
+
+<%-include('./partials/footer') %>
